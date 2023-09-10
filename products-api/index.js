@@ -83,7 +83,7 @@ app.get("/orders", async (req, res) => {
 });
 
 mongoose.connect(
-  "mongodb://mongodb-cluster-ip-service/products",
+  `mongodb://${process.env.MONGODB_HOST}/products`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

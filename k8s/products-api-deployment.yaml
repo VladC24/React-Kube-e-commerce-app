@@ -20,7 +20,6 @@ spec:
         env:
           - name: MONGODB_HOST
             value: "mongodb-cluster-ip-service"
-          - name: RABBITMQ_HOST
-            value: "rabbitmq-cluster-ip-service"
-          - name: RABBITMQ_PORT
-            value: "5672"
+        envFrom:
+          - configMapRef:
+              name: rabbitmq-configmap

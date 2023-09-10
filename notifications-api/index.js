@@ -10,7 +10,7 @@ const client = require("twilio")(accountSid, authToken);
 async function connect() {
   try {
     const connection = await amqp.connect(
-      "amqp://rabbitmq-cluster-ip-service:5672"
+      `amqp://${process.env.RABBITMQ_HOST}:${process.env.RABBITMQ_PORT}`
     );
     const channel = await connection.createChannel();
     const result = channel.assertQueue("jobs");

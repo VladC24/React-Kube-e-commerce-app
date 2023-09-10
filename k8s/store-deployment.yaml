@@ -1,0 +1,29 @@
+# metadata:
+#   name: store-app
+#   labels:
+#     component: store
+# spec:
+#   containers:
+#     - name: store
+#       image: purpler1/store-app
+#       ports:
+#         - containerPort: 80 
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: store-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      component: store
+  template: # Defining the pod that the deployment manages
+    metadata:
+      labels:
+        component: store
+    spec:
+      containers:
+        - name: store
+          image: purpler1/store-app
+          ports:
+            - containerPort: 80

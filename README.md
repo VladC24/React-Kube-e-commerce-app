@@ -16,4 +16,10 @@ A React e-commerce application with a microservices architecture, which contains
 <img width="997" alt="Screenshot 2023-09-10 at 11 22 35" src="https://github.com/VladC24/React-Kube-e-commerce-app/assets/36422289/304807f2-2cac-400d-a897-54b82ff7b8b1">
 
 ### Kubernetes
-- Created the kube manifest file
+- Created deployment files for each of the pods
+- Created cluster ip services for each pod for connections - notifications-api does not one as it only listens to the RabbitMQ messaging service.
+- Added Twilio secrets in Kubernetes secrets
+- Created RabbitMQ configmap
+
+  <img width="385" alt="Screenshot 2023-09-10 at 18 04 48" src="https://github.com/VladC24/React-Kube-e-commerce-app/assets/36422289/46bfc384-f342-42a2-a675-e856497f28c4">
+

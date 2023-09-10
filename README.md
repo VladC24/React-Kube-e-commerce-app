@@ -1,7 +1,7 @@
 # React-Kube-e-commerce-app
 A React e-commerce application with a microservices architecture, which contains two Node APIs, a MongoDB database, a RabbitMQ messaging queue and an integration with Twilio for SMS notifications. 
 
-**The purpose of this app is to explore Kubernetes deployments**
+## _The purpose of this app is to explore Kubernetes deployments_
 
 ### APIs:
 - products-API

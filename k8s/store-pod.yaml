@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: store
-      image: purpler1/store
+      image: purpler1/store-app
       ports:
         - containerPort: 80 

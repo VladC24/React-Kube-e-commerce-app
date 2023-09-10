@@ -16,4 +16,11 @@ spec:
       - name: product-api
         image: purpler1/products-api:v2
         ports:
-        - containerPort: 5002 
+          - containerPort: 5002 
+        env:
+          - name: MONGODB_HOST
+            value: "mongodb-cluster-ip-service"
+          - name: RABBITMQ_HOST
+            value: "rabbitmq-cluster-ip-service"
+          - name: RABBITMQ_PORT
+            value: "5672"

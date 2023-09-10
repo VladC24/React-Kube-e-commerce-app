@@ -10,4 +10,5 @@ A React e-commerce application with a microservices architecture, which contains
 - the _products-API_ then communicates with the _notifications-API_ via the messaging queue
 - the _notifications-API_ sends an SMS to the user (e.g. "Item has been delivered")
 
-  ![e-comm drawio](https://github.com/VladC24/React-Kube-e-commerce-app/assets/36422289/10a15cd7-f61c-4e72-843d-d5c0a4247a73)
+
+<img width="638" alt="Screenshot 2023-09-10 at 11 19 06" src="https://github.com/VladC24/React-Kube-e-commerce-app/assets/36422289/6d36de1c-de8f-416c-91a7-3ddac1860074">

@@ -21,5 +21,5 @@ A React e-commerce application with a microservices architecture, which contains
 - Added Twilio secrets in Kubernetes secrets
 - Created RabbitMQ configmap
 
+<img width="643" alt="Screenshot 2023-09-11 at 18 17 32" src="https://github.com/VladC24/React-Kube-e-commerce-app/assets/36422289/4153978f-ec2b-4c3d-a402-7fb9d5ec3271">
 
-<img width="777" alt="Screenshot 2023-09-10 at 18 08 32" src="https://github.com/VladC24/React-Kube-e-commerce-app/assets/36422289/d4ea7221-1a53-4547-8a0e-3daee548afd1">

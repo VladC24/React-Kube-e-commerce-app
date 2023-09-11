@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: product-api
-        image: purpler1/products-api:v2
+        image: purpler1/products-api:v3
         ports:
           - containerPort: 5002 
         env:

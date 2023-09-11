@@ -3,6 +3,8 @@ A React e-commerce application with a microservices architecture, which contains
 
 ## _The purpose of this app is to explore Kubernetes deployments_
 
+<img width="734" alt="Screenshot 2023-09-11 at 20 43 33" src="https://github.com/VladC24/React-Kube-e-commerce-app/assets/36422289/5b6363d3-4a18-4881-a187-b257d8df36ca">
+
 ### APIs:
 - products-API
 - notifications-API

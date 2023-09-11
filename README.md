@@ -1,5 +1,5 @@
 # React-Kube-e-commerce-app
-A React e-commerce application with a microservices architecture, which contains two NodeJs APIs, a MongoDB database, a RabbitMQ messaging queue, and an integration with Twilio for SMS notifications. This was deployed via AWS EKS.
+A React e-commerce application with a microservices architecture, which contains two NodeJs APIs, a MongoDB database, a RabbitMQ messaging queue, and an integration with Twilio for SMS notifications. This was deployed via AWS EKS via GitHub Actions.
 
 ## _The purpose of this app is to explore Kubernetes deployments_
 
@@ -19,7 +19,7 @@ A React e-commerce application with a microservices architecture, which contains
 
 ### Kubernetes
 - Created deployment files for each of the pods
-- Created cluster ip services for each pod for connections - notifications-api does not one as it only listens to the RabbitMQ messaging service.
+- Created cluster ip services for each pod for connections - notifications-api does not have one as it only listens to the RabbitMQ messaging service.
 - Added Twilio secrets in Kubernetes secrets
 - Created RabbitMQ configmap
 - Created the Nginx ingress
@@ -27,6 +27,7 @@ A React e-commerce application with a microservices architecture, which contains
 - Created EKS cluster with t2.medium nodes (EC2)
 - Created the secrets for app use in the new EKS cluster
 - Created AWS ingress
+- Created CI/CD pipeline with GitHub Actions
 
 <img width="643" alt="Screenshot 2023-09-11 at 18 17 32" src="https://github.com/VladC24/React-Kube-e-commerce-app/assets/36422289/4153978f-ec2b-4c3d-a402-7fb9d5ec3271">
 

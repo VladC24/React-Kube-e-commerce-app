@@ -26,6 +26,7 @@ A React e-commerce application with a microservices architecture, which contains
 - Created persistent storage for mongodb
 - Created EKS cluster with t2.medium nodes (EC2)
 - Created the secrets for app use in the new EKS cluster
+- Created AWS ingress
 
 <img width="643" alt="Screenshot 2023-09-11 at 18 17 32" src="https://github.com/VladC24/React-Kube-e-commerce-app/assets/36422289/4153978f-ec2b-4c3d-a402-7fb9d5ec3271">
 
